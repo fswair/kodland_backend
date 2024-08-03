@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mood Calculator</title>
+  </head>
+  <body>
+    <h1>Hello! Enter answers to show result.</h1>
+    <form name="mood-form" action="/show-results" method="post">
+      <br />
+      <br />
+      <label><b>Question 1: What is your name?</b></label>
+      <br />
+      <br />
+      <input type="text" name="name" />
+      <br />
+      <br />
+      <label><b>Question 2: What is your favourite color?</b></label>
+      <br />
+      <br />
+      <input type="radio" name="fav_color_red" /><label>Red</label>
+      <br />
+      <input type="radio" name="fav_color_blue" /><label>Blue</label>
+      <br />
+      <input type="radio" name="fav_color_green" /><label>Green</label>
+      <br />
+      <label><b>Question 2: What is your favourite animal?</b></label>
+      <br />
+      <br />
+      <input type="radio" name="fav_animal_dog" /><label>Dog</label>
+      <br />
+      <input type="radio" name="fav_animal_cat" /><label>Cat</label>
+      <br />
+      <input type="radio" name="fav_animal_parrot" /><label>Parrot</label>
+      <br />
+      <br />
+      <label><b>Question 4: What are your interests?</b></label>
+      <br />
+      <br />
+      <input type="text" name="interests" />
+      <br />
+      <br />
+      <button type="submit">Show Results</button>
+    </form>
+  </body>
+</html>
